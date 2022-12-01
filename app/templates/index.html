@@ -9,21 +9,25 @@
 					<div class="overlay">
 						<div class="container">
 							<div class="w3layouts-banner-info text-center">
-								<h3 class="text-wh">Harvestify</h3>
+								<h3 class="text-wh">Gro-Field</h3>
 								<h4 class="text-wh mx-auto my-4"><b>Get informed decisions about your farming strategy.</b></h4>
 								
 	<div class="container py-md-5">
-		<h3 class="heading mb-sm-5 mb-4 text-center"> Our Services</h3>
 		<div class="row blog-grids">
 			<div class="col-lg-4 col-md-6 blog-left mb-lg-0 mb-sm-5 pb-lg-0 pb-5">
 				<img src="{{ url_for('static', filename='images/s3.jpg') }}" class="img-fluid" alt="" />
 				<a href="{{ url_for('crop_recommend') }}">
 					<div class="blog-info">
+						
 
-						<h4>Crop</h4>
+						<h4 style=" color: black">Crop</h4>
 
-						<p class="mt-2"> Recommendation about the type of crops to be cultivated which is best suited
-							for the respective conditions</p>
+						<p class="mt-2"> 
+						 <font color="black"> 
+						Recommendation about the type of crops to be cultivated which is best suited
+							for the respective conditions
+						</font> 
+						</p>
 					</div>
 				</a>
 			</div>
@@ -31,9 +35,15 @@
 				<img src="{{ url_for('static', filename='images/s2.jpg') }}" class="img-fluid" alt="" />
 				<a href="{{ url_for('fertilizer_recommendation') }}">
 					<div class="blog-info">
-						<h4>Fertilizer</h4>
-						<p class="mt-2">Recommendation about the type of fertilizer best suited for the particular soil
-							and the recommended crop</p>
+						<font color="black"> 
+						<h4 style=" color: black">Fertilizer</h4>
+
+						<p class="mt-2">
+						 
+						Recommendation about the type of fertilizer best suited for the particular soil
+							and the recommended crop
+						</font>
+						</p>
 					</div>
 				</a>
 			</div>
@@ -44,8 +54,15 @@
 				<!-- <img src="images/s4.jpg" class="img-fliud" alt="" /> -->
 				<a href="{{ url_for('disease_prediction') }}">
 					<div class="blog-info">
-						<h4>Crop Disease</h4>
-						<p class="mt-2">Predicting the name and causes of crop disease and suggestions to cure it</p>
+						<font color="black"> 
+						<h4 style=" color: black">Crop Disesase</h4>
+
+						<p class="mt-2">
+						 
+						Predicting the name and causes of crop disease and suggestions to cure it
+						</font>
+
+						</p>
 					</div>
 				</a>
 			</div>
@@ -58,27 +75,6 @@
 	</div>
 </section>
 <!-- //banner -->
-
-<!-- core values -->
-<section class="core-value py-5">
-	<div class="container py-md-4">
-		<h3 class="heading mb-sm-5 mb-4 text-center"> About Us</h3>
-		<div class="row core-grids">
-			<div class="col-lg-6 core-left">
-				<img src="{{ url_for('static', filename='images/core.jpg') }}" class="img-fluid" alt="" />
-			</div>
-			<div class="col-lg-6 core-right">
-				<h3 class="mt-4">Improving Agriculture, Improving Lives, Cultivating Crops To Make Farmers Increase
-					Profit.</h3>
-				<p class="mt-3">We use state-of-the-art machine learning and deep learning technologies to help you
-					guide through
-					the entire farming process. Make informed decisions to understand the demographics of your area,
-					understand the
-					factors that affect your crop and keep them healthy for a super awesome successful yield.</p>
-			</div>
-		</div>
-	</div>
-
 
 <!-- Creating custom grid and hover effect
 <section>
